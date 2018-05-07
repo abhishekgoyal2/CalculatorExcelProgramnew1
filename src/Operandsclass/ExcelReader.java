@@ -36,6 +36,9 @@ static int valB;
 				 wb = new XSSFWorkbook(fis);
 				 wbsheet = wb.getSheetAt(0);
 				fis.close();
+				 fileout = new FileOutputStream(path);
+		            wb.write(fileout);
+	fileout.close();
 			} catch (Exception e) {
 				
 				e.printStackTrace();
