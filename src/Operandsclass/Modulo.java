@@ -1,6 +1,6 @@
 package Operandsclass;
 
-public class Percentage {
+public class Modulo {
 
 
 	int a,b;
